@@ -1,0 +1,263 @@
+.hiden{
+    display: none;
+}
+
+
+
+/* nav bar  */
+@media (max-width: 850px) {
+      
+}
+
+/* * Small devices (phones, landscape)  */
+@media  (max-width: 480px) {
+    .hero-div{
+        flex-direction: column-reverse;
+    }
+    .heroImg{
+        width: 100%;
+    }
+    .hero-content>h3{
+        font-size: 18px;
+    }
+    .hero-content>h2{
+        width: 100%;
+        font-size: 25px;
+    }
+    .hero-content>p{
+        width: 100%;
+    }
+    .btn-1, .btn-2{
+        padding: 13px 20px;
+    }
+    
+    .about-div{
+       flex-direction: column;
+    }
+    .about-img {
+        width: 100%;
+    }
+    .about-content h2{
+        width: 100%;
+        font-size: 25px;
+    }
+    .about-content p{
+        width: 100%;
+        font-size: 15px;
+    }
+    .why-us-singelDiv{
+        max-width: 100%;
+    }
+    .icon-text h4{
+        font-size: 14px;
+        line-height: 1.2;
+        display: flex;
+        align-items: center
+    }
+    .icon{
+        width: 40px;
+        height: 40px;
+    }
+    .schoolDiv{
+        flex-direction: column-reverse;
+    }
+    .scholl-content{
+        width: 100%;
+    }
+    .scholl-content h2{
+        width: 100%;
+        font-size: 22px;
+    }
+    .scholl-content p{
+        width: 100%;
+        font-size: 15px;
+    }
+
+    .card-text>h3{
+        font-size: 20px;
+    }
+    .card-text>h2{
+        width: 100%;
+        font-size: 30px;
+    }
+    .crad-prent{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .news-leter{
+        height: 350px;
+        margin: 100px 20px;
+    }
+    .contet h2{
+        font-size: 24px;
+    }
+    .overly {
+   padding: 0 8px;
+}
+.footet-section{
+    grid-template-columns: repeat(2,1fr);
+}
+.footer-singel-div{
+    margin: 0;
+}
+.copy-right >p{
+    text-align: center;
+    padding: 0 5px;
+}
+}
+
+/* * Medium devices (larger phones, phablets) */ 
+@media (min-width: 481px) and (max-width: 767px) {
+   .hero-div{
+        flex-direction: column-reverse;
+    }
+    .heroImg{
+        width: 100%;
+    }
+    .hero-content>h3{
+        font-size: 20px;
+    }
+    .hero-content>h2{
+        width: 100%;
+        font-size: 35px;
+    }
+    .hero-content>p{
+        width: 100%;
+        font-size: 25px;
+    }
+    .about-div{
+       flex-direction: column;
+    }
+    .about-img {
+        width: 100%;
+    }
+    .about-content h2{
+        width: 100%;
+        font-size: 30px;
+    }
+    .about-content p{
+        width: 100%;
+        font-size: 20px;
+    }
+    .why-us-singelDiv{
+        max-width: 100%;
+    }
+    .icon-text h4{
+        font-size: 20px;
+
+    }
+      .schoolDiv{
+        flex-direction: column-reverse;
+    }
+    .scholl-content{
+        width: 100%;
+    }
+    .scholl-content h2{
+        width: 100%;
+        font-size: 30px;
+    }
+    .scholl-content p{
+        width: 100%;
+        font-size: 20px;
+    }
+    .card-text>h3{
+        font-size: 20px;
+    }
+    .card-text>h2{
+        width: 100%;
+        font-size: 35px;
+        padding: 0px 10px;
+    }
+    .crad-prent{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .news-leter{
+        height: 450px;
+        margin: 100px 20px;
+    }
+    .contet h2{
+        font-size: 38px;
+    }
+    .overly {
+    padding: 0 8px;
+} 
+.footet-section{
+    grid-template-columns: repeat(3,1fr);
+}
+.footer-singel-div{
+    margin: 0;
+}
+copy-right >p{
+    text-align: center;
+    padding: 0 5px;
+}
+
+ }
+
+/* Tablets (portrait + landscape) */
+ @media (min-width: 768px) and (max-width: 1024px) {
+    .hero-content{
+        width: 60%;
+    }
+    .hero-content>h3{
+        font-size: 18px;
+    }
+    .hero-content>h2{
+        width: 100%;
+        font-size: 25px;
+    }
+    .hero-content>p{
+        width: 100%;
+        font-size: 17px;
+    }
+    .about-content {
+        width: 70%;
+    }
+    .about-content h2{
+        width: 100%;
+        font-size: 25px;
+    }
+    .about-content p{
+        width: 100%;
+        font-size: 18px;
+    }
+    .why-us-singelDiv{
+        max-width: 100%;
+    }
+    .icon-text h4{
+        font-size: 20px;
+        line-height: 1.2;
+
+    }
+
+    .image {
+        width: 50%;
+    }
+    .scholl-content h2{
+        width: 100%;
+        font-size: 25px;
+    }
+    .scholl-content p{
+        width: 100%;
+        font-size: 18px;
+    }
+     .card-text>h3{
+        font-size: 20px;
+    }
+    .card-text>h2{
+        width: 100%;
+        font-size: 40px;
+        padding: 0px 10px;
+    }
+    .crad-prent{
+        grid-template-columns: repeat(3,1fr);
+    }
+   } 
+
+/* Small laptops / desktops */
+/* @media (min-width: 1025px) and (max-width: 1200px) { } */
+
+/* Large desktops */
+/* @media (min-width: 1201px) and (max-width: 1440px) { } */
+
+/* Extra large screens (4K, TVs, ultra-wide monitors) */
+/* @media (min-width: 1441px) { } */
