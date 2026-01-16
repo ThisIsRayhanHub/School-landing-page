@@ -6,16 +6,22 @@
 
 /* nav bar  */
 @media (max-width: 850px) {
+      nav {
+        display: none;
+      }
+      
       
 }
 
 /* * Small devices (phones, landscape)  */
 @media  (max-width: 480px) {
     .hero-div{
-        flex-direction: column-reverse;
+        /* flex-direction: row-reverse; */
+        display: block;
     }
     .heroImg{
         width: 100%;
+        margin-top: 50px;
     }
     .hero-content>h3{
         font-size: 18px;

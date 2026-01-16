@@ -17,7 +17,9 @@
     --sub_heading_font-size: 1.125rem;
     --heading_font-size: 2.5rem;
 }
-
+html{
+    scroll-behavior: smooth;
+}
 body {
     max-width: 1440px;
 }
@@ -78,6 +80,15 @@ nav>ul>li a:hover {
 .signup:hover {
     background: var(--primary-color);
     color: white;
+}
+
+.menuIcon {
+   width: 25px;
+   height:25px ;
+   display: flex;
+   align-items: center;
+   cursor: pointer;
+   display: none;
 }
 
 /* hero section  */
